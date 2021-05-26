@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  m_Layer: 0
+  m_Name: Dialog_Board_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Board
+  paragraphs:
+  - speaker: "\u544A\u793A\u677F"
+    spriteLocation: 1
+    content: "\"\u5929\u554A\uFF0C\u6211\u7B80\u76F4\u4E0D\u6562\u76F8\u4FE1\uFF0C\u90A3\u662F\u4EC0\u4E48\uFF1F\u9B54\u738B\u7684\u722A\u7259\uFF01\u800C\u5357\u5E0C\u5C45\u7136\u8DDF\u90A3\u4E2A\u602A\u7269\u63A5\u89E6\u4E86\uFF01\u771F\u662F\u75AF\u4E86\uFF0C\u5979\u5FD8\u5374\u4E86\u7981\u4EE4\u5417\uFF1F\u5979\u4E00\u5B9A\u662F\u53D8\u6210\u9B54\u5973\u4E86\u5427\uFF01\""
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  selections:
+  - content: 
+    nextDialog: {fileID: 5992076482060181038, guid: ed46f79f0e29c0a4283740916345c6fa,
+      type: 3}
+    continueDialog: 0
+    autoSelect: 1
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7048360085038618864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7048360085038618866}
+  - component: {fileID: 7048360085038618865}
+  - component: {fileID: 5008667216493923852}
+  m_Layer: 0
+  m_Name: Quest_2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7048360085038618866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7048360085038618865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b9cec9d2e373e4cbb732a7d3e1a9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: "\u51FB\u8D25\u8BE1\u5F71"
+  questType: 1
+  content: "\u5F53\u5FC3\uFF0C\u5B83\u4F1A\u5077\u88AD\u4F60\uFF01"
+  scene: Level Boss
+  goalCount: 0
+  reusable: 1
+  showDestination: 1
+  destination: "\u8BE1\u5F71"
+  destinationHeight: 5
+  contraQuests: []
+  selectaQuests: []
+  logicType: 0
+  prevs:
+  - quest: {fileID: 7048360085038618865, guid: 87f8df2ba6a7a104a9737b2e719614cc, type: 3}
+    logicType: 0
+    subLogics: []
+  succs:
+  - {fileID: 7048360085038618865, guid: 87f8df2ba6a7a104a9737b2e719614cc, type: 3}
+  onAdd:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinish:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5008667216493923852}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  tracking: 0
+  stage: 0
+--- !u!114 &5008667216493923852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4082bd05c70bfe4e953942fb09e3e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmName: Normal

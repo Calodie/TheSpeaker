@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  - component: {fileID: -5854296497100472494}
+  m_Layer: 0
+  m_Name: Dialog_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Confessor Eiffel
+  paragraphs:
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u4F60\u600E\u4E48\u4E86\uFF1F\u6709\u4EC0\u4E48\u4E0D\u8212\u670D\u7684\u5417\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u554A\uFF1F\u6211\u8FD9\u662F\u600E\u4E48\u4E86\uFF1F\u60A8\u662F\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u6211\u662F\u827E\u5F17\u5C14\uFF0C\u6751\u91CC\u7684\u53F8\u796D\uFF0C\u60A8\u662F\u88AB\u4E3B\u9009\u4E2D\u7684\u52C7\u8005\uFF0C\u662F\u4E3B\u6D3E\u6765\u62EF\u6551\u6211\u4EEC\u7684\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u6211\u90FD\u4E0D\u77E5\u9053\uFF0C\u539F\u6765\u6211\u8FD8\u662F\u8FD9\u4E48\u5389\u5BB3\u7684\u89D2\u8272\u7684\u5417\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u65E2\u7136\u4E3B\u9009\u4E2D\u4E86\u60A8\uFF0C\u90A3\u5FC5\u7136\u6709\u7942\u7684\u601D\u91CF\uFF0C\u5728\u4E0B\u53EA\u662F\u4E00\u540D\u53F8\u796D\uFF0C\u4E0D\u6562\u5984\u8BAE\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u90A3\u4E48\uFF0C\u4F5C\u4E3A\u4E00\u540D\u52C7\u8005\uFF0C\u6211\u90FD\u8981\u505A\u4E9B\u4EC0\u4E48\u5462\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u8FD9\u4E2A\u6751\u5B50\u5DF2\u7ECF\u53D7\u5230\u9B54\u738B\u57CE\u7684\u837C\u6BD2\u5F88\u4E45\u4E86\uFF0C\u66FE\u7ECF\uFF0C\u8FD9\u4E2A\u6751\u843D\u91CC\u4F4F\u6EE1\u4E86\u4EBA\uFF0C\u4F46\u662F\u5728\u9B54\u738B\u7684\u86CA\u60D1\u4E0B\uFF0C\u8D8A\u6765\u8D8A\u591A\u7684\u4EBA\u80CC\u5F03\u4E86\u4FE1\u4EF0\uFF0C\u6210\u4E3A\u4E86\u9B54\u738B\u7684\u722A\u7259\uFF0C\u5018\u82E5\u6CA1\u6709\u9B54\u6CD5\u9635\u7684\u4FDD\u62A4\u7684\u8BDD\uFF0C\u603B\u6709\u4E00\u5929\uFF0C\u8FD9\u4E2A\u6751\u5B50\u4F1A\u53D8\u6210\u4E0E\u5730\u72F1\u4E00\u822C\u7684\u666F\u8C61\u5427\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u6240\u4EE5\u6211\u4EEC\u9700\u8981\u60A8\u7684\u529B\u91CF\uFF01\u53EA\u6709\u60A8\u624D\u80FD\u8BA8\u4F10\u9B54\u738B\uFF0C\u5C06\u5E73\u9759\u7684\u751F\u6D3B\u91CD\u65B0\u5E26\u56DE\u5230\u8FD9\u91CC\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "...\u8FD9\u6837\u5417\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: ... ...
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u6BD5\u7ADF\u662F\u8FD9\u79CD\u5927\u4E8B\uFF0C\u8FD8\u662F\u8BA9\u6211\u601D\u8003\u4E00\u4E0B\u5427\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u60A8\u5927\u53EF\u5728\u6751\u4E2D\u770B\u770B\uFF0C\u5F53\u4F60\u51B3\u5B9A\u4E86\u5C31\u6765\u627E\u6211\u5427\u3002\u60A8\u5018\u82E5\u6709\u4EC0\u4E48\u60F3\u95EE\u7684\u4E5F\u53EF\u4EE5\u6765\u627E\u6211\uFF0C\u6211\u4E00\u5B9A\u4F1A\u77E5\u65E0\u4E0D\u8A00\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -5854296497100472494}
+          m_MethodName: FinishQuest
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 7048360085038618865, guid: 5ad5620252b5a18418f079f286de2f46,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: KeyboardMan2D.Quest, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  selections:
+  - content: "\u597D\u5427\u3002"
+    nextDialog: {fileID: 5992076482060181038, guid: f338aaccd228b824bbcc05fe280fed71,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u6211\u6709\u70B9\u4E8B\u60C5\u60F3\u8981\u95EE\u95EE\u3002"
+    nextDialog: {fileID: 5992076482060181038, guid: 86b84bf45e620de49b9ccbe1d8b2560d,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &-5854296497100472494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c33f0ad63a91cf4b9dfdbe2b64c611b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

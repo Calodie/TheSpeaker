@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7048360085038618864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7048360085038618866}
+  - component: {fileID: 7048360085038618865}
+  m_Layer: 0
+  m_Name: Quest_Welstone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7048360085038618866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7048360085038618865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b9cec9d2e373e4cbb732a7d3e1a9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: "\u4ED6\u770B\u8D77\u6765\u66F4\u50CF\u52C7\u8005"
+  questType: 0
+  content: "\u6751\u91CC\u6709\u4E2A\u5F88\u5F3A\u58EE\u7684\u4EBA\uFF0C\u8FD8\u597D\u4ED6\u957F\u4E86\u4E00\u526F\u548C\u5584\u7684\u8138\uFF0C\u4E0D\u7136\u6211\u6839\u672C\u4E0D\u60F3\u548C\u4ED6\u642D\u8BDD\u3002"
+  showDestination: 1
+  destination: Welstone
+  scene: Level Village
+  destinationHeight: 2
+  goalCount: 0
+  contraQuests: []
+  selectaQuests: []
+  logicType: 0
+  prevs:
+  - quest: {fileID: 7048360085038618865, guid: 5ad5620252b5a18418f079f286de2f46, type: 3}
+    logicType: 0
+    subLogics: []
+  succs: []
+  tracking: 0
+  stage: 0

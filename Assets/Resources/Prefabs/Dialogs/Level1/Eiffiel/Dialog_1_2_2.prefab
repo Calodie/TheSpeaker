@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  m_Layer: 0
+  m_Name: Dialog_1_2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Confessor Eiffel
+  paragraphs:
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u4ED6\u4EEC\u90FD\u662F\u4E9B\u7F6A\u65E0\u53EF\u8D66\u4E4B\u4EBA\uFF0C\u4E0E\u4ED6\u4EEC\u63A5\u89E6\u53EA\u4F1A\u5E26\u6765\u4E0D\u5E78\u3002\u53EF\u601C\u7684\u5357\u5E0C\uFF0C\u5509\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  selections:
+  - content: "\u5357\u5E0C\uFF1F"
+    nextDialog: {fileID: 5992076482060181038, guid: 1b6dbb7fbb5e78c45ab8364b1fdac978,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u4E3A\u4EC0\u4E48\u8BF4\u4E0E\u201C\u722A\u7259\u201D\u63A5\u89E6\u4F1A\u62DB\u81F4\u4E0D\u5E78\uFF1F"
+    nextDialog: {fileID: 5992076482060181038, guid: 30d6ab307f4526d4b8ff4597cef913ce,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []

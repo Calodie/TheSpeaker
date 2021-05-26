@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  m_Layer: 0
+  m_Name: Dialog_1_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Confessor Eiffel
+  paragraphs:
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u4FDD\u91CD\uFF0C\u52C7\u58EB\u3002\u8FD9\u4E2A\u6751\u5B50\u53EA\u6709\u60A8\u80FD\u591F\u62EF\u6551\uFF01"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  selections:
+  - content: 
+    nextDialog: {fileID: 5992076482060181038, guid: 91c9335c01f4df747a236f5bda221b2b,
+      type: 3}
+    continueDialog: 0
+    autoSelect: 1
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []

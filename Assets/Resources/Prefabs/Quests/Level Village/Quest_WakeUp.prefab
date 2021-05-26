@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7048360085038618864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7048360085038618866}
+  - component: {fileID: 7048360085038618865}
+  m_Layer: 0
+  m_Name: Quest_WakeUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7048360085038618866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7048360085038618865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048360085038618864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b9cec9d2e373e4cbb732a7d3e1a9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: "\u6211\u662F\u8C01\uFF1F\u6211\u5728\u54EA\u513F\uFF1F"
+  questType: 0
+  content: "\u8FD9\u662F\u4EC0\u4E48\u5730\u65B9\uFF1F\u6211\u4E3A\u4EC0\u4E48\u5728\u8FD9\u91CC\uFF1F\u95E8\u53E3\u7AD9\u7740\u7684\u662F\u8C01\uFF1F\u6211\u5F97\u53BB\u95EE\u95EE\u4ED6\u3002"
+  showDestination: 1
+  destination: Confessor Eiffel
+  scene: Level Village
+  destinationHeight: 1.5
+  goalCount: 0
+  contraQuests: []
+  selectaQuests: []
+  logicType: 0
+  prevs: []
+  succs:
+  - {fileID: 7048360085038618865, guid: 1e1515d95bb0bd040baa0ec89c59bc2f, type: 3}
+  - {fileID: 7048360085038618865, guid: ada8c740f181a354eaed94f6fa293651, type: 3}
+  - {fileID: 7048360085038618865, guid: b3d651b50f373ef42a1a0a4ea3f6e21c, type: 3}
+  - {fileID: 7048360085038618865, guid: 3430179f1cd342144a647e21c984402a, type: 3}
+  - {fileID: 7048360085038618865, guid: 025988269c7668f4295c7bf0dbf443cd, type: 3}
+  - {fileID: 7048360085038618865, guid: 7641096175168364b86ee0b4f7adf4a4, type: 3}
+  tracking: 0
+  stage: 0

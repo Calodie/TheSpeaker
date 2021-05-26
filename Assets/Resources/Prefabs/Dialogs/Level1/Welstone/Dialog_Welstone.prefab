@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  - component: {fileID: -4221034347900392709}
+  m_Layer: 0
+  m_Name: Dialog_Welstone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Welstone
+  paragraphs:
+  - speaker: "\u6E29\u65AF\u987F"
+    spriteLocation: 1
+    content: "\u4F60\u770B\u8D77\u6765\u662F\u521A\u6765\u7684\u65B0\u4EBA\uFF1F\u5728\u8FD9\u4E2A\u6751\u5B50\u65B0\u4EBA\u53EF\u4E0D\u5E38\u89C1\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -4221034347900392709}
+          m_MethodName: FinishQuest
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 7048360085038618865, guid: 025988269c7668f4295c7bf0dbf443cd,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: KeyboardMan2D.Quest, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -4221034347900392709}
+          m_MethodName: FinishQuest
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 7048360085038618865, guid: 1e1515d95bb0bd040baa0ec89c59bc2f,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: KeyboardMan2D.Quest, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    singleEvent: 1
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u989D\uFF0C\u6211\u662F\u52C7\u8005...\u5927\u6982\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  - speaker: "\u6E29\u65AF\u987F-\u751F\u6C14"
+    spriteLocation: 1
+    content: "\u4EC0\u4E48\uFF1F\uFF01\u8FD9\u4E5F\u592A\u4E71\u6765\u4E86\u5427\uFF01\u4F60...\u4F60\u771F\u7684\u80FD\u627F\u62C5\u52C7\u8005\u7684\u8D23\u4EFB\u5417\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u554A\uFF0C\u6211...\u5E94\u8BE5\u53EF\u4EE5\u5427..."
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  - speaker: "\u6E29\u65AF\u987F"
+    spriteLocation: 1
+    content: "\u54E6\uFF0C\u8FD9\u53EF\u771F\u662F...\u5E0C\u671B\u4F60\u8FD9\u5BB6\u4F19\u522B\u4ED7\u7740\u81EA\u5DF1\u662F\u52C7\u8005\u7684\u8EAB\u4EFD\u53BB\u6B3A\u538B\u522B\u4EBA\u3002\u5C31\u50CF\u7EB3\u54C8\u6D1B\u4E00\u6837\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  selections:
+  - content: "\u7EB3\u54C8\u6D1B\uFF1F\u90A3\u53C8\u662F\u8C01\uFF1F\u662F\u505A\u4E86\u4EC0\u4E48\u9519\u4E8B\u5417\uFF1F"
+    nextDialog: {fileID: 5992076482060181038, guid: 0e1425aa642ff484b9d6e599205cf2e5,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u518D\u89C1\u4E86\u3002"
+    nextDialog: {fileID: 5992076482060181038, guid: e2403f60d68a859459608f46730746a8,
+      type: 3}
+    continueDialog: 0
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &-4221034347900392709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c33f0ad63a91cf4b9dfdbe2b64c611b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  m_Layer: 0
+  m_Name: Dialog_Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Board
+  paragraphs:
+  - speaker: "\u544A\u793A\u677F"
+    spriteLocation: 1
+    content: "\"\u628A\u4F60\u89C9\u5F97\u7F6A\u6076\u7684\u4E8B\u60C5\u90FD\u5199\u51FA\u6765\u5427\uFF0C\u4E3B\u4F1A\u5BBD\u6055\uFF0C\u4E3B\u4F1A\u60E9\u7F5A\u3002\""
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  - speaker: "\u6A0A\u683C"
+    spriteLocation: 0
+    content: "\u8FD9\u4E0A\u9762\u6709\u4E09\u5F20\u5B57\u6761\u3002\u5199\u7740\u4E9B...\u63A7\u8BC9\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+    singleEvent: 0
+  selections:
+  - content: "\u5B57\u6761\"\u6D1B\u5854\u65AF\""
+    nextDialog: {fileID: 5992076482060181038, guid: 77164a9611ac81e4399955faec11cfed,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u5B57\u6761\"\u5357\u5E0C\""
+    nextDialog: {fileID: 5992076482060181038, guid: 237a322c664a1d647a3439c71f367145,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u5B57\u6761\"\u7EB3\u54C8\u6D1B\""
+    nextDialog: {fileID: 5992076482060181038, guid: 3c68ea2f87669c24e9e5f88337841f8a,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u79BB\u5F00"
+    nextDialog: {fileID: 5992076482060181038}
+    continueDialog: 0
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []

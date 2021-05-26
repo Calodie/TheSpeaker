@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  - component: {fileID: 3751908399760966022}
+  m_Layer: 0
+  m_Name: Dialog_Segrass_1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Segrass
+  paragraphs:
+  - speaker: "\u585E\u683C\u62C9\u65AF"
+    spriteLocation: 1
+    content: "\u6D1B\u5854\u65AF\u90A3\u5C0F\u9B3C\u4F4F\u5728\u6751\u5B50\u7684\u6700\u8FB9\u7F18\uFF0C\u81EA\u5E7C\u4ED6\u5C31\u5931\u53BB\u4E86\u7236\u6BCD\uFF0C\u50CF\u4E2A\u91CE\u72D7\u4E00\u6837\u3002\u5E73\u65F6\u5C31\u9760\u8DDF\u7740\u6728\u5320\u5F53\u5B66\u5F92\u4E3A\u751F\uFF0C\u540E\u6765\u4E0D\u77E5\u600E\u4E48\u5C31\u6CA1\u4E86\u58F0\u54CD\u3002\u81F3\u4E8E\u662F\u6B7B\u662F\u6D3B\uFF0C\u8C01\u5728\u4E4E\u5462\uFF1F\u4E5F\u8BB8\u662F\u53D8\u6210\u722A\u7259\u4E86\u5427\u3002"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  - speaker: "\u585E\u683C\u62C9\u65AF"
+    spriteLocation: 1
+    content: "\u6211\u6562\u4FDD\u8BC1\uFF0C\u6211\u7684\u9EC4\u91D1\u676F\u7EDD\u5BF9\u662F\u4ED6\u5077\u8D70\u7684\uFF01\u7EDD\u5BF9\uFF01"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  selections:
+  - content: "\u8BF4\u5B9E\u8BDD\uFF0C\u6211\u5BF9\u4F60\u7684\u5B9D\u7269\u771F\u4E0D\u611F\u5174\u8DA3\u3002"
+    nextDialog: {fileID: 5992076482060181038, guid: ed2404ce37acfbd4286e4ee03c327d5a,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &3751908399760966022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c33f0ad63a91cf4b9dfdbe2b64c611b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

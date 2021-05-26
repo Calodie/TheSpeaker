@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4223037454896308572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819412427549887444}
+  - component: {fileID: 5992076482060181038}
+  m_Layer: 0
+  m_Name: Dialog_1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819412427549887444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5992076482060181038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4223037454896308572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e073781804d2cb46bd5e5f4a23a4d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Confessor Eiffel
+  paragraphs:
+  - speaker: "\u827E\u5F17\u5C14\u53F8\u796D"
+    spriteLocation: 1
+    content: "\u90A3\u4E48\uFF0C\u60A8\u60F3\u77E5\u9053\u4E9B\u4EC0\u4E48\u5462\uFF1F"
+    onSpeak:
+      m_PersistentCalls:
+        m_Calls: []
+  selections:
+  - content: "\u5173\u4E8E\u9B54\u738B..."
+    nextDialog: {fileID: 5992076482060181038, guid: 06c1a0e4ca78c7a49802d902ceff0299,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u5173\u4E8E\u9B54\u738B\u7684\u722A\u7259..."
+    nextDialog: {fileID: 5992076482060181038, guid: 74fcb582fd3166b4b9da66196ae3730e,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u5173\u4E8E\u544A\u793A\u677F..."
+    nextDialog: {fileID: 5992076482060181038, guid: 2718d1f32dd2007499cbadd2aaed78c8,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u6709\u5173\u544A\u793A\u677F\u4E0A\u7684\u4EBA..."
+    nextDialog: {fileID: 5992076482060181038, guid: 0192a5aa951f6fc4abcabf7d8493e7f2,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: "\u518D\u4F1A\u3002"
+    nextDialog: {fileID: 5992076482060181038, guid: f338aaccd228b824bbcc05fe280fed71,
+      type: 3}
+    continueDialog: 1
+    autoSelect: 0
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
